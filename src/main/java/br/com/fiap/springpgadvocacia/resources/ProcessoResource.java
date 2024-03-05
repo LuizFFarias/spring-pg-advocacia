@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.Objects;
 
 @RestController
-@RequestMapping(value = "/processos")
+@RequestMapping(value = "/processo")
 public class ProcessoResource {
     @Autowired
     private ProcessoRepository processoRepository;

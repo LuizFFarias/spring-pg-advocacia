@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Objects;
 
 @RestController
-@RequestMapping(value = "/advogados")
+@RequestMapping(value = "/advogado")
 public class AdvogadoResource {
 
     @Autowired

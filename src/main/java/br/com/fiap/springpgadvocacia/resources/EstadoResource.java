@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Objects;
 @RestController
-@RequestMapping(value = "/estados")
+@RequestMapping(value = "/estado")
 public class EstadoResource {
     @Autowired
     private EstadoRepository estadoRepository;
