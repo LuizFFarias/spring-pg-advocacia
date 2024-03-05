@@ -1,4 +1,7 @@
 package br.com.fiap.springpgadvocacia.repository;
 
-public interface ProcessoRepository {
+import br.com.fiap.springpgadvocacia.entity.Processo;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ProcessoRepository extends JpaRepository<Processo, Long> {
 }
