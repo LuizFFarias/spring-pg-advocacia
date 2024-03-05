@@ -1,4 +1,7 @@
 package br.com.fiap.springpgadvocacia.repository;
 
-public interface EstadoRepository {
+import br.com.fiap.springpgadvocacia.entity.Estado;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface EstadoRepository extends JpaRepository<Estado, Long> {
 }
